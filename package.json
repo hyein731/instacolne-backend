@@ -1,0 +1,19 @@
+{
+  "name": "instaclone",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyein731/instacolne-backend.git"
+  },
+  "keywords": [],
+  "author": "hyein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyein731/instacolne-backend/issues"
+  },
+  "homepage": "https://github.com/hyein731/instacolne-backend#readme"
+}
