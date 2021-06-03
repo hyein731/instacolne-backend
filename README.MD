@@ -18,14 +18,14 @@ Instaclone Backend.
 
 ## Photos
 
-- [ ] See Photo
 - [ ] Upload Photo
+- [ ] See Photo
+- [ ] See Hashtags
+- [ ] Search Photos
 - [ ] Edit Photo
 - [ ] Like / Unlike Photo
 - [ ] See Photo Likes
 - [ ] See Feed
-- [ ] Search Photos
-- [ ] See Hashtags
 
 ## Comments
 
