@@ -1,7 +1,7 @@
 import { gql } from "apollo-server";
 
 export default gql`
-    type Comments {
+    type Comment {
         id: Int!
         user: User!
         photo: Photo!
