@@ -17,7 +17,7 @@ const resolverFn = async(
         // const writeStream = createWriteStream(process.cwd() + "/uploads/" + newFilename);
         // readStream.pipe(writeStream);
         // avatarUrl = `http://localhost:4000/static/${newFilename}`;
-        avatarUrl = await uploadToS3(avatar, loggedInUser.id);
+        avatarUrl = await uploadToS3(avatar, loggedInUser.id, "avatars");
     }
 
     let uglyPassword = null;
