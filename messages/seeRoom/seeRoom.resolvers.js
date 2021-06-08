@@ -3,15 +3,20 @@ import client from "../../client";
 
 export default {
     Query: {
-        seeRooms: protectedResolver(async (_, __, { loggedInUser }) =>
-            client.room.findMany({
+        seeRoom: protectedResolver(async (_, { id }, { loggedInUser }) =>
+            client.room.findFirst({
                 where: {
+                    id,
                     users: {
                         some: {
                             id: loggedInUser.id,
                         },
                     },
                 },
+                // include: {
+                //     users: true,
+                //     message: true,
+                // },
             })
         ),
     },
