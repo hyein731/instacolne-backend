@@ -1,5 +1,5 @@
-import client from "../client";
 import { protectedResolver } from "../users.utils";
+import client from "../../client";
 
 export default {
     Query: {
