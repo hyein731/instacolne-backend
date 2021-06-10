@@ -25,6 +25,6 @@ export default {
             where: {
                 id
             },
-        }).photos(),
+        }).photo(),
     }
 };
