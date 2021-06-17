@@ -11,8 +11,8 @@ const PORT = process.env.PORT;
 const apollo = new ApolloServer({
     resolvers,
     typeDefs,
-    playground: true,
-    introspection: true,
+    playground: true, // 실제 deploy 할 때는 빼기
+    introspection: true, // 실제 deploy 할 때는 빼기
     context: async (ctx) => {
         if (ctx.req) { // http
             return {

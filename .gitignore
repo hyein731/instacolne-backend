@@ -1,6 +1,5 @@
 
 node_modules
-prisma/migrations/*
 uploads/*
 .env
 .env.test
