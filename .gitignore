@@ -4,3 +4,4 @@ prisma/migrations/*
 uploads/*
 .env
 .env.test
+/build
